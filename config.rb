@@ -2,7 +2,6 @@
 # Page options, layouts, aliases and proxies
 ###
 
-set :relative_links, true
 activate :directory_indexes
 
 # Per-page layout changes:
@@ -35,6 +34,9 @@ end
 
 # Build-specific configuration
 configure :build do
+  # TODO: Delete this when hosting without a path prefix
+  set :http_prefix, '/hellouoft'
+
   # Minify CSS on build
   # activate :minify_css
 
