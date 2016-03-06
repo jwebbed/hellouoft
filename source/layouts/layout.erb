@@ -5,29 +5,45 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
 
-  <title><%= current_page.data.title || "Hello UofT" %></title>
+  <title><%= current_page.data.title ? "#{current_page.data.title} - Hello UofT" : "Hello UofT" %></title>
+
+  <meta property="og:url" content="http://www.hellouoft.ca/">
+  <meta property="og:title" content="Vote for Hello UofT">
+  <meta property="og:image" content="http://www.hellouoft.ca/images/logo.png">
+  <meta property="og:description" content="Vote Hello UofT for UTSU 2016-2017!">
+  <meta property="og:type" content="profile">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two:700italic" rel="stylesheet">
 
   <%= stylesheet_link_tag :site %>
-  <%= javascript_include_tag :all %>
+  <%= javascript_include_tag :script %>
 </head>
 
 <body class="<%= page_classes %>">
-  <header>
-    <nav>
-      <a href='/'>Home</a>
-      <a href='/candidates'>Candidates</a>
-      <a href='/platform'>Platform</a>
-      <a href='/vote'>Vote</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <%= link_to 'Home', '/', { class: 'header__logo' } %>
+
+      <nav class="header__nav">
+        <%= link_to 'Home', '/' %>
+        <%= link_to 'Candidates', '/candidates' %>
+        <%= link_to 'Platform', '/platform' %>
+        <%= link_to 'Vote', '/vote' %>
+      </nav>
+    </div>
   </header>
 
-  <%= yield %>
+  <main class="container">
+    <%= yield %>
+  </main>
 
-  <footer>
-    &copy; 2016 Hello UofT
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2016 Hello UofT</p>
+    </div>
   </footer>
 </body>
 </html>

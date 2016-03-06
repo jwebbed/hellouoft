@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-@import 'normalize';
+@import 'vendor/normalize';
+@import 'utils/variables';
 
 * {
   box-sizing: border-box;
@@ -9,6 +10,55 @@
 }
 
 body {
-  background: #ECC561;
-  font: 400 1em/1.25 'Cabin', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  background: $light-grey;
+  color: $dark-grey;
+  font: 400 1em/1.25 $fonts;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fonts-heading;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.header {
+  background: $green;
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+  .header__logo {
+    background: url('/images/logo.png') no-repeat center center / contain;
+    display: block;
+    font-size: 0;
+    height: 8rem;
+    width: 10rem;
+  }
+
+  .header__nav {
+    a {
+      color: #fff;
+    }
+  }
+
+.footer {
+  background: $pink;
 }
