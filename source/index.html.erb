@@ -2,14 +2,22 @@
 layout: layout
 ---
 
-Some hero image + slogan
+<section class="home__hero">
+  <p class="home__hero__text">Say hello to a better tomorrow.</p>
+</section>
 
-Major platform points
-> MORE >
+<section class="home__section">
+  <h2>Platform points</h2>
+  <%= link_to 'Learn more', '/platform' %>
+</section>
 
-Execs
-> FULL TEAM >
+<section class="home__section">
+  <h2>Executive team</h2>
+  <%= link_to 'See the full team', '/candidates' %>
+</section>
 
-Vote!
-March 22 - 24
-> HOW TO VOTE >
+<section class="home__section">
+  <h2>Vote!</h2>
+  March 22 - 24
+  <%= link_to "Voting's easy!", '/vote' %>
+</section>

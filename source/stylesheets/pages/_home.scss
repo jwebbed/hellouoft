@@ -1,0 +1,46 @@
+.home__hero {
+  background: url('/images/uoft.jpg') no-repeat center bottom / cover;
+  height: 28rem;
+  position: relative;
+  text-align: center;
+  z-index: -1;
+
+  &::after {
+    content: '';
+    display: block;
+    background: url('/images/execs.png') no-repeat center bottom / contain;
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+  .home__hero__text {
+    bottom: 0;
+    color: $white;
+    font-family: $fonts-heading;
+    font-size: 2em;
+    left: 0;
+    padding: 0.5em;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+
+    &::before {
+      background: linear-gradient(to bottom, transparent, $green);
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 4em;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+.home__section {
+  margin: 2em 0;
+}
