@@ -1,12 +1,10 @@
-<% wrap_layout :home do %>
+<% wrap_layout :layout do %>
 
   <div class="candidate">
-
     <h3><%= current_page.data.name %></h3>
     <p><%= current_page.data.role %></p>
 
     <%= yield %>
-
   </div>
 
 <% end %>
