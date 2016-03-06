@@ -3,4 +3,4 @@ title: Our Platform
 layout: layout
 ---
 
-Platform
+<h1>Our Platform</h1>
