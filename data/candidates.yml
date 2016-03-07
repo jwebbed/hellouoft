@@ -1,87 +1,227 @@
 execs:
-  - name:     Jasmine Wong Denike
-    position: President
+  - name:       Jasmine Wong Denike
+    position:   President
+    experience: VP External of UTSU, ICSS Grad Rep & Marketing Director, Co-Founder of ADVOCAN
+    platform:
+      - Fight to eliminate tuition fee increases
+      - Increase connections between students & the board through advertising & summarizing meetings
+      - Freeze Executive salaries to provide extra funding for bursaries for students
 
-  - name:     Mathias Memmel
-    position: VP Internal & Services
+  - name:       Mathias Memmel
+    position:   VP Internal & Services
+    experience: Two-term FMUA Co-President, FMUA CFO, Music Orientation Coordinator, UTSU Music Director
+    platform:
+      - Expand Health & Dental Plan to cover the full cost of mental health therapy
+      - Develop an free open-source textbook service for all UofT students
+      - "Develop an anti-calendar: know all about courses before you take them"
 
-  - name:     Shawn Williams
-    position: VP UA
+  - name:       Shawn Williams
+    position:   VP UA
+    experience: a
+    platform:
+      - a
+      - b
+      - c
 
-  - name:     Lucinda Qu
-    position: VP External
+  - name:       Lucinda Qu
+    position:   VP External
+    experience: a
+    platform:
+      - a
+      - b
+      - c
 
-  - name:     Farah Noori
-    position: VP Equity
+  - name:       Farah Noori
+    position:   VP Equity
+    experience: UTMSU/UTSU Division Three Board Director (2015-2016), UTMSU Womxn’s Coalition Member (2014-2015), UTMSU Volunteer (2014-2015)
+    platform:
+      - Challenge all phobias & isms in UofT by collaborating with colleges, professional faculties, & clubs to create awareness & facilitate discussions
+      - Work with admin to increase effective security resources (emergency buttons etc) for different areas on campus
+      - Lobby for better and affordable food services on campus
 
-  - name:     Shahin Imtiaz
-    position: VP Campus Life
+  - name:       Shahin Imtiaz
+    position:   VP Campus Life
+    experience: a
+    platform:
+      - a
+      - b
+      - c
 
-  - name:     Ryan Gomes
-    position: VP Professional Faculties
+  - name:       Ryan Gomes
+    position:   VP Professional Faculties
+    experience: EngSoc VP Academic, UTSU VP Internal & Services, UTSU Engineering Director, EngSoc At-Large Board Director
+    platform:
+      - Introduce a Professional Faculties Commission to engage ProFac students
+      - Push the government to reduce regulated fee increases
+      - A new focus on ProFac students through ProFac-friendly programming
 
 academic:
-  - name:     Timothy Law
-    position: Social Sciences Director
+  - name:       Timothy Law
+    position:   Social Sciences Director
+    experience: Executive Branch for UofT Model UN and SSICsim, Vic Frosh Leader, Executive Correspondent for Synergy Contemporary Asian Studies Journal
+    platform:
+      - Increase involvement and collaboration within and outside of Faculty
+      - Easier access and greater exposure for students to Academic Services
+      - Increased transparency and ease of understanding of UTSU Functions for students
 
-  - name:     Yao Lu
-    position: Mathematical & Physical Sciences Director
+  - name:       Yao Lu
+    position:   Mathematical & Physical Sciences Director
+    experience: Toronto Math Union VP Social, Faculty of Arts & Science - Science Curriculum Committee Student Representative
+    platform:
+      - Enhance student bonding and support within and outside of departments
+      - Increase accessibility for academic materials and guidance
+      - Advocate for diversity and culture collaboration
 
-  - name:     Alissa Mirochnitchenko
-    position: Life Sciences Director
+  - name:       Alissa Mirochnitchenko
+    position:   Life Sciences Director
+    experience: UofT Pre-Medical Society Co-President, ICSS Social Director
+    platform:
+      - Raise awareness and improve support for student mental health
+      - Support services for medical, dental & other professional school appliers
+      - Work to lower textbooks & lab material costs in required Life-Sci courses
 
-  - name:     Tsukasa Kikuchi
-    position: Rotman Commerce Director
+  - name:       Tsukasa Kikuchi
+    position:   Rotman Commerce Director
+    experience: RCMA Media Coordinator, Breakfast Media CEO, Rotman Intramural Soccer Goalkeeper
+    platform:
+      - Lobby against rising tuition and textbook costs
+      - Work towards improving the university experience for Rotman commuters
+      - Develop career-oriented UTSU x Rotman collaboration events
 
 profac:
-  - name:     Sophia Wang
-    position: Professional Faculty At-Large Director
+  - name:       Sophia Wang
+    position:   Professional Faculty At-Large Director
+    experience: FMUA Music Education Rep 2015-16, FMUA First Year Rep 2014-15, Faculty of Music Student Ambassador
+    platform:
+      - Advocate for improved Arts/Sci enrolment access for ProFac students
+      - Push for ProFac-specific resources for mental health and wellness
+      - Facilitate positive relations and collaborations between ProFacs and UTSU
 
-  - name:     Faizan Akbani
-    position: Professional Faculty At-Large Director
+  - name:       Faizan Akbani
+    position:   Professional Faculty At-Large Director
+    experience: Governing Council (ProFac), Engineering Society Board of Director, Engineering Ambassador, Frosh Leader
+    platform:
+      - Work on improving Mental Health resources and accessibility
+      - Increase collaborative events between Professional Faculties
+      - Increase awareness and accessibility to the UTSU's student services
 
-  - name:     Addy Bhatia
-    position: Engineering & Applied Sciences Director
+  - name:       Addy Bhatia
+    position:   Engineering & Applied Sciences Director
+    experience: Humans of Skule, High School Valedictorian, Leadership Developer @ a Peel conference
+    platform:
+      - Increase connectedness between students via campus-wide app
+      - Developing & implementing off campus cooking workshops for students
+      - Increase UTSU’s transparency for greater reliability and accessibility
 
-  - name:     Danja Papajani
-    position: Engineering & Applied Sciences Director
+  - name:       Danja Papajani
+    position:   Engineering & Applied Sciences Director
+    experience: Hi-Skule Mentor, Professional Engineers of Ontario Scholarship Recipient
+    platform:
+      - Integrate introductory equity resources for engineers
+      - Increase transparency of UTSU within Engineering
+      - Promote collaboration between Engineering & other professional faculties
 
-  - name:     Andrew Sweeny
-    position: Engineering & Applied Sciences Director
+  - name:       Andrew Sweeny
+    position:   Engineering & Applied Sciences Director
+    experience: EngSoc Deputy Returning Officer, F!rosh Leedur
+    platform:
+      - Work with EngSoc to improve mental health resources
+      - Promote collaboration between Engineering and Arts & Science
+      - Review the UTSU's membership in the CFS
 
-  - name:     Veronika Potylitsina
-    position: Architecture, Landscape & Design Director
+  - name:       Veronika Potylitsina
+    position:   Architecture, Landscape & Design Director
+    experience: HerCampus Writer
+    platform:
+      - Increase collaboration with other faculties, colleges, & other external orgs
+      - Increase access to mental health initiatives
+      - Better transparency/understanding of UTSU functions for students
 
-  - name:     Ilan
-    position: Faculty of Dentistry Director
+  - name:       Ilan
+    position:   Faculty of Dentistry Director
+    experience: a
+    platform:
+      - a
+      - b
+      - c
 
-  - name:     David Kleinman
-    position: Faculty of Medicine Director
+  - name:       David Kleinman
+    position:   Faculty of Medicine Director
+    experience: Academic Board Student Representative, University Tribunal Representative
+    platform:
+      - Increase availability of mental health services on campus
+      - Advocate for term-long access to athletic facilities for professional students
+      - Increase accountability of UTSU to Medical Students
 
-  - name:     Katie Grundy
-    position: Faculty of Nursing Director
+  - name:       Katie Grundy
+    position:   Faculty of Nursing Director
+    experience: First year UTSU Rep, member of NUS, previous executive involvement in various campus groups
+    platform:
+      - Advocate for Nursing student access to services
+      - Improve communication and collaboration between UTSU and Nursing
+      - Increase UTSU accountability and transparency for Nursing students
 
-  - name:     Adriana Too
-    position: Faculty of Pharmacy Director
+  - name:       Adriana Too
+    position:   Faculty of Pharmacy Director
+    experience:
+    platform:
+      - Increase accessibility/availability of mental health services after work hours
+      - Increase Pharmacy students' access to UTSU resources
+      - Provide more opportunities for Pharmacy students to get involved in UTSU events
 
 colleges:
-  - name:     Christina Badiola
-    position: Woodsworth College Director
+  - name:       Christina Badiola
+    position:   Woodsworth College Director
+    experience: Associate to Vice-President Internal, Frosh Leader 2015, Chestnut Res Council 2014-15, Chestnut Floor President 2014-15
+    platform:
+      - Sit on the CFS Committee and review our relationship
+      - Work with VP Campus Life to create commuter spaces within WW
+      - Work with VP Internal and WW for better mental health resources
 
-  - name:     Ifrah Farah
-    position: Woodsworth College Director
+  - name:       Ifrah Farah
+    position:   Woodsworth College Director
+    experience: UTSU board member, Wellstone Fellows Intern, CHPS volunteer coordinator
+    platform:
+      - Integrate non-traditional students into UTSU
+      - Help make UTSU a more visible and transparent organization on campus
+      - Represent the interests of Woodsworth College students on the board
 
-  - name:     Garnet Lollar
-    position: Victoria College Director
+  - name:       Garnet Lollar
+    position:   Victoria College Director
+    experience: a
+    platform:
+      - a
+      - b
+      - c
 
-  - name:     Stephanie Spagnuolo
-    position: Victoria College Director
+  - name:       Stephanie Spagnuolo
+    position:   Victoria College Director
+    experience: Victoria College Council Member, Associated Editor of the Features Section of the Strand, Member of the Equity Commission, Intermural Outdoor Soccer Team member
+    platform:
+      - Investigate the UTSU's relationship with the CFS
+      - "Fighting for the Victorian voice, #fightclub"
+      - Work with student groups on fighting against issues of sexual assualt
 
-  - name:     Kshemani Constantinescu
-    position: University College Director
+  - name:       Kshemani Constantinescu
+    position:   University College Director
+    experience: UC Equity & Outreach Commission Involvement, UC University & Academic Affairs Commission Involvement
+    platform:
+      - Promote awareness of and easier access to UTSU resources
+      - Lobby Accessibility Services for more accessible career resources
+      - Work with mental wellness commission on a self-care campaign
 
-  - name:     Mira El Hussein
-    position: University College Director
+  - name:       Mira El Hussein
+    position:   University College Director
+    experience: UCLit First Year Rep, UConnect Planning Committee, Student Rep on College Council
+    platform:
+      - Promote UC values of equity and inclusivity across campus
+      - Improve access to UTSU resources and increase transparency of UTSU
+      - Push for increased accessibility to mental health resources
 
-  - name:     Chimwemwe Alao
-    position: University College Director
+  - name:       Chimwemwe Alao
+    position:   University College Director
+    experience: UCLit Mid Year Rep, Vice-President UC Host Club, Frosh Leader 2015
+    platform:
+      - Work towards the creation of equitable policies & practices across campus
+      - Ensuring UC students’ interests are represented on the UTSU
+      - Push for increased interconnectedness between the Faculties

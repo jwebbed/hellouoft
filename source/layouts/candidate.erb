@@ -3,6 +3,12 @@
   <h1><%= candidate.name %></h1>
   <p><%= candidate.position %></p>
 
+  <p><%= candidate.experience %></p>
+
+  <% candidate.platform.each do |point| %>
+    <p><%= point %></p>
+  <% end %>
+
   <%= yield %>
 
 <% end %>
