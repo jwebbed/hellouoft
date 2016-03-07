@@ -11,8 +11,12 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# Use 'candidate.erb' layout for candidate pages
-page '/candidates/*', layout: 'candidate'
+# Dynamically generate candidate pages from YAML data
+data.candidates.each do |key, value|
+  value.each do |candidate|
+    proxy "/candidates/#{candidate[:name].parameterize}.html", "/candidates/template.html", :locals => { :candidate => candidate }, :ignore => true
+  end
+end
 
 # General configuration
 

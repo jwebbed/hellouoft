@@ -1,10 +1,8 @@
 <% wrap_layout :layout do %>
 
-  <div class="candidate">
-    <h1><%= current_page.data.name %></h1>
-    <p><%= current_page.data.role %></p>
+  <h1><%= candidate.name %></h1>
+  <p><%= candidate.position %></p>
 
-    <%= yield %>
-  </div>
+  <%= yield %>
 
 <% end %>
