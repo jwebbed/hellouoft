@@ -24,55 +24,15 @@ layout: layout
   <h2>The Executive Team</h2>
 
   <ul class="home__list">
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
-    <li>
-      <a href="/candidates/" class="home__candidates__person">
-        <img src="http://placehold.it/350x350" alt="Photo of">
-        <p class="home__candidates__person__name">Name</p>
-        <p class="home__candidates__person__position">Position</p>
-      </a>
-    </li>
+    <% data.candidates.execs.each do |exec| %>
+      <li>
+        <a href="/candidates/" class="home__candidates__person">
+          <img src="http://placehold.it/350x350" alt="Photo of <%= exec.name %>">
+          <p class="home__candidates__person__name"><%= exec.name %></p>
+          <p class="home__candidates__person__position"><%= exec.position %></p>
+        </a>
+      </li>
+    <% end %>
   </ul>
 
   <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>

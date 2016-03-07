@@ -1,0 +1,87 @@
+execs:
+  - name:     Jasmine Wong Denike
+    position: President
+
+  - name:     Mathias Memmel
+    position: VP Internal & Services
+
+  - name:     Shawn Williams
+    position: VP UA
+
+  - name:     Lucinda Qu
+    position: VP External
+
+  - name:     Farah Noori
+    position: VP Equity
+
+  - name:     Shahin Imtiaz
+    position: VP Campus Life
+
+  - name:     Ryan Gomes
+    position: VP Professional Faculties
+
+academic:
+  - name:     Timothy Law
+    position: Social Sciences Director
+
+  - name:     Yao Lu
+    position: Mathematical & Physical Sciences Director
+
+  - name:     Alissa Mirochnitchenko
+    position: Life Sciences Director
+
+  - name:     Tsukasa Kikuchi
+    position: Rotman Commerce Director
+
+profac:
+  - name:     Sophia Wang
+    position: Professional Faculty At-Large Director
+
+  - name:     Faizan Akbani
+    position: Professional Faculty At-Large Director
+
+  - name:     Addy Bhatia
+    position: Engineering & Applied Sciences Director
+
+  - name:     Danja Papajani
+    position: Engineering & Applied Sciences Director
+
+  - name:     Andrew Sweeny
+    position: Engineering & Applied Sciences Director
+
+  - name:     Veronika Potylitsina
+    position: Architecture, Landscape & Design Director
+
+  - name:     Ilan
+    position: Faculty of Dentistry Director
+
+  - name:     David Kleinman
+    position: Faculty of Medicine Director
+
+  - name:     Katie Grundy
+    position: Faculty of Nursing Director
+
+  - name:     Adriana Too
+    position: Faculty of Pharmacy Director
+
+colleges:
+  - name:     Christina Badiola
+    position: Woodsworth College Director
+
+  - name:     Ifrah Farah
+    position: Woodsworth College Director
+
+  - name:     Garnet Lollar
+    position: Victoria College Director
+
+  - name:     Stephanie Spagnuolo
+    position: Victoria College Director
+
+  - name:     Kshemani Constantinescu
+    position: University College Director
+
+  - name:     Mira El Hussein
+    position: University College Director
+
+  - name:     Chimwemwe Alao
+    position: University College Director
