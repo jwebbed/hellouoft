@@ -1,9 +1,7 @@
 .home__hero {
-  background: url('/images/uoft.jpg') no-repeat center bottom / cover;
+  @extend .content__header;
   height: 28rem;
-  position: relative;
-  text-align: center;
-  z-index: -1;
+  margin-bottom: 0;
 
   &::after {
     content: '';
@@ -18,27 +16,7 @@
 }
 
   .home__hero__text {
-    bottom: 0;
-    color: $white;
-    font-family: $fonts-heading;
-    font-size: 2em;
-    left: 0;
-    padding: 0.5em;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-
-    &::before {
-      background: linear-gradient(to bottom, transparent, $green);
-      bottom: 0;
-      content: '';
-      display: block;
-      height: 4em;
-      left: 0;
-      position: absolute;
-      width: 100%;
-      z-index: -1;
-    }
+    @extend .content__header__text;
   }
 
 .home__section {

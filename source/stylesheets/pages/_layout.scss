@@ -8,7 +8,7 @@
 .header {
   background: $green;
   flex-shrink: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: -1rem;
   position: relative;
 
   &::after {
@@ -38,11 +38,6 @@
 
   a {
     border-bottom: 0;
-  }
-
-  // Home page
-  .index & {
-    margin-bottom: -1rem;
   }
 }
 
@@ -99,6 +94,40 @@
   //   background: none;
   // }
 }
+
+  .content__header {
+    background: url('/images/uoft.jpg') no-repeat center bottom / cover;
+    height: 18rem;
+    margin-bottom: 2em;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+  }
+
+    .content__header__text {
+      bottom: 0;
+      color: $white;
+      font-family: $fonts-heading;
+      font-size: 2.5em;
+      left: 0;
+      padding: 0.5em;
+      position: absolute;
+      width: 100%;
+      z-index: 10;
+
+      &::before {
+        background: linear-gradient(to bottom, transparent, $green);
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 4em;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+      }
+    }
+
 
 .footer {
   background: $pink;
