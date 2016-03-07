@@ -29,6 +29,11 @@
     justify-content: space-between;
     position: relative;
     z-index: 1;
+
+    @include breakpoint(mobile) {
+      display: block;
+      text-align: center;
+    }
   }
 
   a {
@@ -46,21 +51,37 @@
     font-size: 0;
     height: 4rem;
     position: relative;
+    width: auto;
+
+    @include breakpoint(mobile) {
+      height: auto;
+    }
   }
 
     .header__logo__img {
       background: url('/images/logo.png') no-repeat center center / contain;
+      display: inline-block;
       height: 8rem;
       left: 0;
       position: absolute;
       top: -0.5rem;
       width: 10rem;
+
+      @include breakpoint(mobile) {
+        height: 7rem;
+        margin-bottom: 1rem;
+        position: static;
+      }
     }
 
   .header__nav {
     a {
       color: $white;
       margin-left: 1em;
+
+      @include breakpoint(mobile) {
+        margin: 0 0.5em;
+      }
     }
   }
 
@@ -89,5 +110,9 @@
     position: absolute;
     top: -1rem;
     width: 0;
+  }
+
+  .index & {
+    margin-top: -1rem;
   }
 }

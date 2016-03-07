@@ -3,7 +3,8 @@
 @import 'vendor/normalize';
 
 @import 'utils/variables';
+@import 'utils/mixins';
 @import 'utils/core';
-@import 'utils/layout';
 
+@import 'pages/layout';
 @import 'pages/home';

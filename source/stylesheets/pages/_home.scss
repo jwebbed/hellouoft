@@ -42,28 +42,57 @@
   }
 
 .home__section {
-  margin: 2em 0;
+  background-color: $blue;
+  color: $white;
+  padding: 2em 1em;
   text-align: center;
 
+  &:nth-child(odd) {
+    background-color: $green;
+  }
+
   h2 {
-    border-bottom: 1px dashed rgba($blue, 0.75);
+    border-bottom: 1px dashed rgba($white, 0.75);
+    margin-bottom: 1rem;
     padding-bottom: 0.5rem;
   }
 }
+
+  .home__section__more {
+    background: $white;
+    border-radius: $radius;
+    border: 0;
+    color: $dark-grey;
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.35em 0.75em;
+
+    &::after {
+      border: 0.25em solid transparent;
+      border-left-color: $dark-grey;
+      content: '';
+      display: inline-block;
+      height: 0;
+      margin-left: 0.5em;
+      vertical-align: middle;
+      width: 0;
+    }
+  }
 
 .home__platform {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   list-style: none;
-  margin: 1em 0;
+  margin: 1em -0.5em;
   width: 100%;
 
   li {
-    background: $blue;
-    color: $white;
+    background: $white;
+    color: $dark-grey;
+    flex: 1 0 auto;
+    margin: 0.5em;
     padding: 1em;
-    width: 15em;
   }
 }
 

@@ -7,7 +7,7 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h2>Platform points</h2>
+  <h2>Our Commitments</h2>
 
   <ul class="home__platform">
     <li>Something</li>
@@ -17,11 +17,11 @@ layout: layout
     <li>Something</li>
   </ul>
 
-  <%= link_to 'Learn more', '/platform' %>
+  <%= link_to 'Learn more', '/platform', { class: 'home__section__more' } %>
 </section>
 
 <section class="home__section">
-  <h2>Executive team</h2>
+  <h2>The Executive Team</h2>
 
   <ul class="home__candidates">
     <li>Something</li>
@@ -29,11 +29,12 @@ layout: layout
     <li>Something</li>
   </ul>
 
-  <%= link_to 'See the full team', '/candidates' %>
+  <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>
 </section>
 
 <section class="home__section">
-  <h2>Vote!</h2>
+  <h2>Go Vote!</h2>
   <p>March 22 - 24</p>
-  <%= link_to "Voting's easy!", '/vote' %>
+
+  <%= link_to "Voting's easy!", '/vote', { class: 'home__section__more' } %>
 </section>
