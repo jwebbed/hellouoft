@@ -6,25 +6,53 @@ layout: layout
 <h1>Our Team</h1>
 
 <h2>Executives</h2>
-<ul>
-  <li><%= link_to 'Ben', '/candidates/ben.html' %></li>
-  <li><%= link_to 'Ryan', '/candidates/ryan.html' %></li>
+<ul class="tiles">
+  <% data.candidates.execs.each do |candidate| %>
+    <li class="candidate">
+      <a href="/candidates/">
+        <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+        <p class="candidate__name"><%= candidate.name %></p>
+        <p class="candidate__position"><%= candidate.position %></p>
+      </a>
+    </li>
+  <% end %>
 </ul>
 
 <h2>Academic Directors</h2>
-<ul>
-  <li><%= link_to 'Ben', '/candidates/ben.html' %></li>
-  <li><%= link_to 'Ryan', '/candidates/ryan.html' %></li>
+<ul class="tiles">
+  <% data.candidates.academic.each do |candidate| %>
+    <li class="candidate">
+      <a href="/candidates/">
+        <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+        <p class="candidate__name"><%= candidate.name %></p>
+        <p class="candidate__position"><%= candidate.position %></p>
+      </a>
+    </li>
+  <% end %>
 </ul>
 
 <h2>Professional Faculties Directors</h2>
-<ul>
-  <li><%= link_to 'Ben', '/candidates/ben.html' %></li>
-  <li><%= link_to 'Ryan', '/candidates/ryan.html' %></li>
+<ul class="tiles">
+  <% data.candidates.profac.each do |candidate| %>
+    <li class="candidate">
+      <a href="/candidates/">
+        <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+        <p class="candidate__name"><%= candidate.name %></p>
+        <p class="candidate__position"><%= candidate.position %></p>
+      </a>
+    </li>
+  <% end %>
 </ul>
 
 <h2>College Directors</h2>
-<ul>
-  <li><%= link_to 'Ben', '/candidates/ben.html' %></li>
-  <li><%= link_to 'Ryan', '/candidates/ryan.html' %></li>
+<ul class="tiles">
+  <% data.candidates.colleges.each do |candidate| %>
+    <li class="candidate">
+      <a href="/candidates/">
+        <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+        <p class="candidate__name"><%= candidate.name %></p>
+        <p class="candidate__position"><%= candidate.position %></p>
+      </a>
+    </li>
+  <% end %>
 </ul>

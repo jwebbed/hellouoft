@@ -66,6 +66,7 @@
     display: inline-block;
     margin-top: 1em;
     padding: 0.35em 0.75em;
+    transition: box-shadow 0.3s, color 0.3s;
 
     &::after {
       border: 0.25em solid transparent;
@@ -79,43 +80,17 @@
     }
 
     &:hover {
+      box-shadow: 0 0 0 0.15em $pink;
       color: $pink;
     }
   }
 
-.home__list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  list-style: none;
-  margin: 1em -0.5em;
-  width: 100%;
+.home__candidates {
+  .candidate {
+    background-color: rgba($white, 0.85);
 
-  li {
-    background: $white;
-    color: $dark-grey;
-    flex: 1 0 auto;
-    margin: 0.5em;
-    padding: 1em;
+    &:hover {
+      background-color: $white;
+    }
   }
 }
-
-.home__candidates__person {
-  border: 0;
-  color: $dark-grey;
-
-  img {
-    border-radius: $radius;
-    height: 8em;
-    width: 8em;
-  }
-}
-
-  .home__candidates__person__name {
-    font-size: 1.8em;
-    margin: 0.5rem;
-  }
-
-  .home__candidates__person__position {
-    font-size: 1.2em;
-  }

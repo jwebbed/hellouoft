@@ -1,0 +1,33 @@
+.candidate {
+  cursor: pointer;
+  padding: 0 !important;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 15em;
+
+  &:hover {
+    box-shadow: 0 0 0 0.25em $pink;
+  }
+
+  a {
+    border: 0;
+    color: $dark-grey;
+    display: block;
+    padding: 1em;
+  }
+
+  img {
+    border-radius: $radius;
+    height: 8em;
+    width: 8em;
+  }
+}
+
+  .candidate__name {
+    font-size: 1.8em;
+    margin: 0.5rem;
+  }
+
+  .candidate__position {
+    font-size: 1.2em;
+  }

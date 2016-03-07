@@ -7,9 +7,9 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h2>Our Commitments</h2>
+  <h2>Our Commitments to You</h2>
 
-  <ul class="home__list">
+  <ul class="tiles">
     <li>Something</li>
     <li>Something</li>
     <li>Something</li>
@@ -21,15 +21,15 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h2>The Executive Team</h2>
+  <h2>Your Executive Team</h2>
 
-  <ul class="home__list">
-    <% data.candidates.execs.each do |exec| %>
-      <li>
-        <a href="/candidates/" class="home__candidates__person">
-          <img src="http://placehold.it/350x350" alt="Photo of <%= exec.name %>">
-          <p class="home__candidates__person__name"><%= exec.name %></p>
-          <p class="home__candidates__person__position"><%= exec.position %></p>
+  <ul class="tiles home__candidates">
+    <% data.candidates.execs.each do |candidate| %>
+      <li class="candidate">
+        <a href="/candidates/">
+          <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+          <p class="candidate__name"><%= candidate.name %></p>
+          <p class="candidate__position"><%= candidate.position %></p>
         </a>
       </li>
     <% end %>
@@ -40,7 +40,7 @@ layout: layout
 
 <section class="home__section">
   <h2>Go Vote!</h2>
-  <p>March 22 - 24</p>
+  <p>Voting takes place on <strong>March 22 - 24<strong>.</p>
 
   <p>Online</p>
 
