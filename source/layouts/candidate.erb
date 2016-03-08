@@ -1,18 +1,35 @@
 <% wrap_layout :layout do %>
 
-  <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
+  <div class="candidate__card">
+    <div class="candidate__card__profile">
+      <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
 
-  <h1><%= candidate.name %></h1>
-  <p><%= candidate.position %></p>
+      <h1><%= candidate.name %></h1>
+      <p><%= candidate.position %></p>
+    </div>
 
-  <p><%= candidate.statement %></p>
+    <div class="candidate__card__info">
+      <h3>Statement</h3>
+      <p><%= candidate.statement %></p>
 
-  <% if candidate.experience %>
-    <p><%= candidate.experience %></p>
-  <% end %>
+      <% if candidate.experience %>
+        <h3>Past experience</h3>
+        <ul>
+          <% candidate.experience.each do |experience| %>
+            <li><%= experience %></li>
+          <% end %>
+        </ul>
+      <% end %>
 
-  <% candidate.platform.each do |point| %>
-    <p><%= point %></p>
-  <% end %>
+      <h3>TL;DR</h3>
+      <ul>
+        <% candidate.platform.each do |point| %>
+          <li><%= point %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+  <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>
 
 <% end %>

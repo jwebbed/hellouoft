@@ -32,3 +32,45 @@
   .candidate__position {
     font-size: 1.15em;
   }
+
+.candidate__card {
+  background-color: $white;
+  border-radius: $radius;
+  border: 1px solid $blue;
+  display: table;
+  margin: 1.5em auto;
+  max-width: 50em;
+  padding: 1em;
+  table-layout: fixed;
+  width: 100%;
+}
+
+  .candidate__card__profile,
+  .candidate__card__info {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .candidate__card__profile {
+    padding-right: 1em;
+    width: 16em;
+
+    img {
+      height: 15em;
+      width: 15em;
+    }
+  }
+
+  .candidate__card__info {
+    border-left: 1px solid $blue;
+    padding-left: 1em;
+
+    p + h3,
+    ul + h3 {
+      margin-top: 1em;
+    }
+
+    li {
+      margin-left: 1.25em;
+    }
+  }
