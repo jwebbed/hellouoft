@@ -25,13 +25,14 @@ execs:
     statement: "Lorem ipsum"
 
   - name:       Shawn Williams
-    position:   VP UA
+    position:   VP University Affairs
     experience:
-      - a
+      - UofT accepted students group organizer
+      - Direct engagement with students
     platform:
-      - a
-      - b
-      - c
+      - Lobby for improved academic support, recorded lectures, and assignment grace periods
+      - Refocus commissions on student needs and empowerment
+      - Organize open meetings to coordinate with student societies
     statement: "Lorem ipsum"
 
   - name:       Lucinda Qu
@@ -261,6 +262,14 @@ colleges:
       - Integrate non-traditional students into UTSU
       - Help make UTSU a more visible and transparent organization on campus
       - Represent the interests of Woodsworth College students on the board
+    statement: "Lorem ipsum"
+
+  - name:       Ahmad Ilyas
+    position:   Woodsworth College Director
+    experience:
+      - A
+    platform:
+      - A
     statement: "Lorem ipsum"
 
   - name:       Garnet Lollar
