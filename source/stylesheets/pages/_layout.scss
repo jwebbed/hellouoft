@@ -56,11 +56,11 @@
     .header__logo__img {
       background: url('/images/logo.png') no-repeat center center / contain;
       display: inline-block;
-      height: 8rem;
+      height: 10rem;
       left: 0;
       position: absolute;
       top: -0.5rem;
-      width: 10rem;
+      width: 12rem;
 
       @include breakpoint(mobile) {
         height: 7rem;
@@ -93,6 +93,12 @@
   // .index & {
   //   background: none;
   // }
+
+  .index &.container{
+    @include breakpoint(mobile) {
+      padding: 1rem 0;
+    }
+  }
 }
 
   .content__header {
@@ -134,6 +140,7 @@
   color: $white;
   flex-shrink: 0;
   font-size: 0.85em;
+  margin-top: 1rem;
   position: relative;
 
   &::before {

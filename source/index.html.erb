@@ -27,7 +27,7 @@ layout: layout
     <% data.candidates.execs.each do |candidate| %>
       <li class="candidate">
         <a href="/candidates/<%= candidate[:name].parameterize %>.html">
-          <img src="http://placehold.it/350x350" alt="Photo of <%= candidate.name %>">
+          <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
           <p class="candidate__name"><%= candidate.name %></p>
           <p class="candidate__position"><%= candidate.position %></p>
         </a>

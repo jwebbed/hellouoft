@@ -42,6 +42,7 @@ h5,
 h6 {
   font-family: $fonts-heading;
   margin-bottom: 0.25rem;
+  text-rendering: optimizeLegibility;
 }
 
 h1 {

@@ -1,5 +1,5 @@
-# hellouoft
-The home page for Hello U of T using [Middleman](https://middlemanapp.com/).
+# Hello UofT
+The home page for Hello UofT using [Middleman](https://middlemanapp.com/).
 
 ## Development
 Install [rbenv](https://github.com/rbenv/rbenv), clone this repo, then:
