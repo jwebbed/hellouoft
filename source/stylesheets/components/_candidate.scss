@@ -38,7 +38,7 @@
   }
 
 .candidate__card {
-  background-color: $white;
+  background: $white url('/images/bubble.png') no-repeat bottom -2em right -2em;
   border-radius: $radius;
   border: 1px solid $blue;
   display: table;
