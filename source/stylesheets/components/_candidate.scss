@@ -1,3 +1,7 @@
+.candidates {
+  text-align: center;
+}
+
 .candidate {
   cursor: pointer;
   padding: 0 !important;
@@ -42,6 +46,7 @@
   max-width: 50em;
   padding: 1em;
   table-layout: fixed;
+  text-align: left;
   width: 100%;
 }
 
@@ -74,3 +79,13 @@
       margin-left: 1.25em;
     }
   }
+
+.candidate__more {
+  @extend .home__section__more;
+  border: 1px solid $blue !important;
+
+  &:hover {
+    box-shadow: 0 0 0 0.15em $blue !important;
+    color: $blue !important;
+  }
+}
