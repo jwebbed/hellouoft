@@ -1,9 +1,15 @@
 <% wrap_layout :layout do %>
 
+  <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
+
   <h1><%= candidate.name %></h1>
   <p><%= candidate.position %></p>
 
-  <p><%= candidate.experience %></p>
+  <p><%= candidate.statement %></p>
+
+  <% if candidate.experience %>
+    <p><%= candidate.experience %></p>
+  <% end %>
 
   <% candidate.platform.each do |point| %>
     <p><%= point %></p>

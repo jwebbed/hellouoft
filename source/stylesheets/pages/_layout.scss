@@ -71,11 +71,13 @@
 
   .header__nav {
     a {
+      border-bottom: 2px solid transparent;
       color: $white;
       margin-left: 1em;
+      transition: border-bottom-color 0.2s;
 
       &:hover {
-        border-bottom: 2px solid $white;
+        border-bottom-color: $white;
       }
 
       @include breakpoint(mobile) {
