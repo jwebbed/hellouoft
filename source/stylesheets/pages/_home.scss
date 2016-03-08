@@ -65,10 +65,22 @@
 
 .home__candidates {
   .candidate {
-    background-color: rgba($white, 0.85);
+    background-color: rgba($white, 0.9);
 
     &:hover {
       background-color: $white;
     }
   }
 }
+
+.home__vote {
+  padding-bottom: 3rem;
+
+  h3 {
+    margin-top: 1.5rem;
+  }
+}
+
+  .home__vote__action {
+    font-size: 1.5em;
+  }
