@@ -9,4 +9,15 @@ layout: narrow
   <iframe src="https://www.youtube.com/embed/qyee_sxJpXc?rel=0?&amp;theme=light" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 
-<!-- Accordion goes here -->
+<ul class="accordion">
+  <% data.platform.each do |platform_point| %>
+    <li class="accordion__item">
+      <label>
+        <input class="accordion__item__check" type="checkbox">
+        <span class="accordion__item__label"><%= platform_point.title %></span>
+
+        <div class="accordion__item__content"><%= platform_point.point %></div>
+      </label>
+    </li>
+  <% end %>
+</ul>
