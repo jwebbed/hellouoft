@@ -7,46 +7,52 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h1>Our Commitments to You</h1>
+  <div class="container__narrow">
+    <h1>Our Commitments to You</h1>
 
-  <ul class="tiles">
-    <li>Something</li>
-    <li>Something</li>
-    <li>Something</li>
-    <li>Something</li>
-    <li>Something</li>
-  </ul>
+    <ul class="tiles">
+      <li>Something</li>
+      <li>Something</li>
+      <li>Something</li>
+      <li>Something</li>
+      <li>Something</li>
+    </ul>
 
-  <%= link_to 'Learn more', '/platform', { class: 'home__section__more' } %>
+    <%= link_to 'Learn more', '/platform', { class: 'home__section__more' } %>
+  </div>
 </section>
 
 <section class="home__section">
-  <h1>Your Executive Team</h1>
+  <div class="container__narrow">
+    <h1>Your Executive Team</h1>
 
-  <ul class="tiles home__candidates">
-    <% data.candidates.execs.each do |candidate| %>
-      <li class="candidate">
-        <a href="/candidates/<%= candidate[:name].parameterize %>.html">
-          <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
-          <p class="candidate__name"><%= candidate.name %></p>
-          <p class="candidate__position"><%= candidate.position %></p>
-        </a>
-      </li>
-    <% end %>
-  </ul>
+    <ul class="tiles home__candidates">
+      <% data.candidates.execs.each do |candidate| %>
+        <li class="candidate">
+          <a href="/candidates/<%= candidate[:name].parameterize %>.html">
+            <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
+            <p class="candidate__name"><%= candidate.name %></p>
+            <p class="candidate__position"><%= candidate.position %></p>
+          </a>
+        </li>
+      <% end %>
+    </ul>
 
-  <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>
+    <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>
+  </div>
 </section>
 
 <section class="home__section home__vote">
-  <h1>Go Vote!</h1>
-  <p class="home__vote__action">Voting takes place on <strong>March 22 - 24</strong> and it's easy!</p>
+  <div class="container__narrow">
+    <h1>Go Vote!</h1>
+    <p class="home__vote__action">Voting takes place on <strong>March 22 - 24</strong> and it's easy!</p>
 
-  <h3>Online</h3>
-  <p>Vote at <a href="https://utsu.simplyvoting.com/">utsu.simplyvoting.com</a> from March 22 at midnight until March 24 at 6:30pm.</p>
+    <h3>Online</h3>
+    <p>Vote at <a href="https://utsu.simplyvoting.com/">utsu.simplyvoting.com</a> from March 22 at midnight until March 24 at 6:30pm.</p>
 
-  <h3>In person</h3>
-  <p>Vote at any of the following polling station from 9am until 6:30pm each voting day:</p>
-  <p><strong>St. George Campus</strong>: Bahen Centre, Athletic Centre, Goldring Athletic Centre, or Kelly Library</p>
-  <p><strong>UTM Campus</strong>: Instructional Building, or Davis Building</p>
+    <h3>In person</h3>
+    <p>Vote at any of the following polling station from 9am until 6:30pm each voting day:</p>
+    <p><strong>St. George Campus</strong>: Bahen Centre, Athletic Centre, Goldring Athletic Centre, or Kelly Library</p>
+    <p><strong>UTM Campus</strong>: Instructional Building, or Davis Building</p>
+  </div>
 </section>

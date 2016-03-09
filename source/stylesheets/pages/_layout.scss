@@ -1,9 +1,19 @@
 .container {
   margin: 0 auto;
   max-width: 80rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   width: 100%;
+
+  @include breakpoint(mobile) {
+    padding: 1rem;
+  }
 }
+
+  .container__narrow {
+    margin: 0 auto;
+    max-width: 60rem;
+    width: 100%;
+  }
 
 .header {
   background: $green;
@@ -165,13 +175,30 @@
 }
 
   .footer__social {
+    span,
+    a {
+      display: inline-block;
+      opacity: 0.65;
+      vertical-align: middle;
+    }
+
     a {
       border: 0;
       color: $white;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 1;
+      }
     }
 
     svg {
       height: 3rem;
       width: 3rem;
     }
+  }
+
+  .footer__copy {
+    font-size: 0.85em;
+    opacity: 0.65;
   }

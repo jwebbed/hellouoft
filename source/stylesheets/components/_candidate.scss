@@ -9,11 +9,11 @@
   padding: 0 !important;
   text-align: center;
   transition: background-color 0.3s, box-shadow 0.3s;
-  width: 15em;
+  width: 12em;
 
   &:hover {
     border-color: $pink;
-    box-shadow: 0 0 0 0.25em $pink;
+    box-shadow: 0 0 0 0.2em $pink;
   }
 
   a {
@@ -45,7 +45,7 @@
   border-radius: $radius;
   border: 1px solid $blue;
   display: table;
-  margin: 1.5em auto;
+  margin: 2.5em auto;
   max-width: 50em;
   padding: 1em;
   table-layout: fixed;
@@ -108,6 +108,7 @@
 .candidate__more {
   @extend .home__section__more;
   border: 1px solid $blue !important;
+  margin-top: 0 !important;
 
   &:hover {
     box-shadow: 0 0 0 0.15em $blue !important;
