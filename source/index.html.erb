@@ -7,7 +7,7 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h2>Our Commitments to You</h2>
+  <h1>Our Commitments to You</h1>
 
   <ul class="tiles">
     <li>Something</li>
@@ -21,7 +21,7 @@ layout: layout
 </section>
 
 <section class="home__section">
-  <h2>Your Executive Team</h2>
+  <h1>Your Executive Team</h1>
 
   <ul class="tiles home__candidates">
     <% data.candidates.execs.each do |candidate| %>
@@ -38,11 +38,15 @@ layout: layout
   <%= link_to 'See the full team', '/candidates', { class: 'home__section__more' } %>
 </section>
 
-<section class="home__section">
-  <h2>Go Vote!</h2>
-  <p>Voting takes place on <strong>March 22 - 24<strong>.</p>
+<section class="home__section home__vote">
+  <h1>Go Vote!</h1>
+  <p class="home__vote__action">Voting takes place on <strong>March 22 - 24</strong> and it's easy!</p>
 
-  <p>Online</p>
+  <h3>Online</h3>
+  <p>Vote at <a href="https://utsu.simplyvoting.com/">utsu.simplyvoting.com</a> from March 22 at midnight until March 24 at 6:30pm.</p>
 
-  <p>In person</p>
+  <h3>In person</h3>
+  <p>Vote at any of the following polling station from 9am until 6:30pm each voting day:</p>
+  <p><strong>St. George Campus</strong>: Bahen Centre, Athletic Centre, Goldring Athletic Centre, or Kelly Library</p>
+  <p><strong>UTM Campus</strong>: Instructional Building, or Davis Building</p>
 </section>
