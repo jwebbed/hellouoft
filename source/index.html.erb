@@ -11,11 +11,9 @@ layout: layout
     <h1>Our Commitments to You</h1>
 
     <ul class="tiles">
-      <li>Something</li>
-      <li>Something</li>
-      <li>Something</li>
-      <li>Something</li>
-      <li>Something</li>
+      <% data.platform.short.each do |platform_point| %>
+        <li><%= platform_point %></li>
+      <% end %>
     </ul>
 
     <%= link_to 'Learn more', '/platform', { class: 'home__section__more' } %>

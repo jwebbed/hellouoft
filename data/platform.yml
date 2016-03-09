@@ -1,17 +1,24 @@
-- title: Something
-  point: Details
+short:
+  - Something
+  - Something
+  - Something
+  - Something
 
-- title: Something
-  point: Details
+full:
+  - title: Something
+    point: Details
 
-- title: Something
-  point: Details
+  - title: Something
+    point: Details
 
-- title: Something
-  point: Details
+  - title: Something
+    point: Details
 
-- title: Something
-  point: Details
+  - title: Something
+    point: Details
 
-- title: Something
-  point: Details
+  - title: Something
+    point: Details
+
+  - title: Something
+    point: Details
