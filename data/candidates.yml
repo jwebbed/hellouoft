@@ -37,8 +37,6 @@ execs:
 
   - name:       Lucinda Qu
     position:   VP External
-    experience:
-      - a
     platform:
       - Demand the elimination of tuition increase
       - Create more equitable, good, and healthy food options on campus
@@ -90,8 +88,6 @@ execs:
 academic:
   - name:       Jacob Reinertson
     position:   Computer Science Director
-    experience:
-      - a
     platform:
       - Work with ASSU to ensure CS students are easily able to get into the courses they need
       - Explore with administration options to reduce congestion in Bahen labs and accessibility to required course hardware
@@ -225,16 +221,6 @@ profac:
       - Better transparency/understanding of UTSU functions for students
     statement: "Lorem ipsum"
 
-  - name:       Ilan
-    position:   Faculty of Dentistry Director
-    experience:
-      - a
-    platform:
-      - a
-      - b
-      - c
-    statement: "Lorem ipsum"
-
   - name:       David Kleinman
     position:   Faculty of Medicine Director
     experience:
@@ -295,9 +281,12 @@ colleges:
   - name:       Ahmad Ilyas
     position:   Woodsworth College Director
     experience:
-      - A
+      - Woodsworth social comittee member
+      - Frosh leader
     platform:
-      - A
+      - Work towards greater inclusivity and community for commuter students
+      - Increase awareness of UTSU as well as services offered to members
+      - Create avenues for greater accountability and communication with in-person and web-based events
     statement: "Lorem ipsum"
 
   - name:       Garnet Lollar
