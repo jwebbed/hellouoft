@@ -40,9 +40,9 @@ execs:
     experience:
       - a
     platform:
-      - a
-      - b
-      - c
+      - Demand the elimination of tuition increase
+      - Create more equitable, good, and healthy food options on campus
+      - Develop more resources for commuter students, like nap spaces
     statement: "Lorem ipsum"
 
   - name:       Farah Noori
@@ -88,6 +88,16 @@ execs:
     statement: "Lorem ipsum"
 
 academic:
+  - name:       Jacob Reinertson
+    position:   Computer Science Director
+    experience:
+      - a
+    platform:
+      - Work with ASSU to ensure CS students are easily able to get into the courses they need
+      - Explore with administration options to reduce congestion in Bahen labs and accessibility to required course hardware
+      - Advocate for reform of commonly disliked CS courses
+    statement: "Lorem ipsum"
+
   - name:       Timothy Law
     position:   Social Sciences Director
     experience:
@@ -132,6 +142,17 @@ academic:
       - Lobby against rising tuition and textbook costs
       - Work towards improving the university experience for Rotman commuters
       - Develop career-oriented UTSU x Rotman collaboration events
+    statement: "Lorem ipsum"
+
+  - name:       Victoria Liao
+    position:   Humanities Director
+    experience:
+      - Sexual Education Centre Levy Coordinator
+      - Editorial Board member at The Spectatorial
+    platform:
+      - Improve student access to timely and equitable mental health and accessibility resources
+      - Increase awareness and efficacy of academic support resources
+      - Liaise with course unions to foster equity values and promote interdisciplinary connections
     statement: "Lorem ipsum"
 
 profac:
