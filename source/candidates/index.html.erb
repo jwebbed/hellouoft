@@ -21,6 +21,21 @@ layout: narrow
 </section>
 
 <section class="candidates__section">
+  <h2>College Directors</h2>
+  <ul class="tiles">
+    <% data.candidates.colleges.each do |candidate| %>
+      <li class="candidate">
+        <a href="/candidates/<%= candidate[:name].parameterize %>.html">
+          <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
+          <p class="candidate__name"><%= candidate.name %></p>
+          <p class="candidate__position"><%= candidate.position %></p>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+<section class="candidates__section">
   <h2>Academic Directors</h2>
   <ul class="tiles">
     <% data.candidates.academic.each do |candidate| %>
@@ -39,21 +54,6 @@ layout: narrow
   <h2>Professional Faculties Directors</h2>
   <ul class="tiles">
     <% data.candidates.profac.each do |candidate| %>
-      <li class="candidate">
-        <a href="/candidates/<%= candidate[:name].parameterize %>.html">
-          <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
-          <p class="candidate__name"><%= candidate.name %></p>
-          <p class="candidate__position"><%= candidate.position %></p>
-        </a>
-      </li>
-    <% end %>
-  </ul>
-</section>
-
-<section class="candidates__section">
-  <h2>College Directors</h2>
-  <ul class="tiles">
-    <% data.candidates.colleges.each do |candidate| %>
       <li class="candidate">
         <a href="/candidates/<%= candidate[:name].parameterize %>.html">
           <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
