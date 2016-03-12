@@ -33,6 +33,7 @@
   cursor: pointer;
   display: block;
   padding: 0.75em 1em;
+  text-transform: uppercase;
 
   &::after {
     content: '+';
