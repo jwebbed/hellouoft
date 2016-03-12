@@ -25,26 +25,6 @@ execs:
       - Develop an free open-source textbook service for all UofT students
       - "Develop an anti-calendar: know all about courses before you take them"
     statement: "Lorem ipsum"
-
-  - name:       Shawn Williams
-    position:   VP University Affairs
-    experience:
-      - UofT accepted students group organizer
-      - Direct engagement with students
-    platform:
-      - Lobby for improved academic support, recorded lectures, and assignment grace periods
-      - Refocus commissions on student needs and empowerment
-      - Organize open meetings to coordinate with student societies
-    statement: "Lorem ipsum"
-
-  - name:       Lucinda Qu
-    position:   VP External
-    platform:
-      - Demand the elimination of tuition increase
-      - Create more equitable, good, and healthy food options on campus
-      - Develop more resources for commuter students, like nap spaces
-    statement: "Lorem ipsum"
-
   - name:       Farah Noori
     position:   VP Equity
     experience:
@@ -55,6 +35,25 @@ execs:
       - Challenge all phobias & isms in UofT by collaborating with colleges, professional faculties, & clubs to create awareness & facilitate discussions
       - Work with admin to increase effective security resources (emergency buttons etc) for different areas on campus
       - Lobby for better and affordable food services on campus
+    statement: "Lorem ipsum"
+
+  - name:       Lucinda Qu
+    position:   VP External
+    platform:
+      - Demand the elimination of tuition increase
+      - Create more equitable, good, and healthy food options on campus
+      - Develop more resources for commuter students, like nap spaces
+    statement: "Lorem ipsum"
+
+  - name:       Shawn Williams
+    position:   VP University Affairs
+    experience:
+      - UofT accepted students group organizer
+      - Direct engagement with students
+    platform:
+      - Lobby for improved academic support, recorded lectures, and assignment grace periods
+      - Refocus commissions on student needs and empowerment
+      - Organize open meetings to coordinate with student societies
     statement: "Lorem ipsum"
 
   - name:       Shahin Imtiaz
