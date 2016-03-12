@@ -28,48 +28,50 @@
         <% end %>
       </ul>
 
-      <h3>About me</h3>
-      <dl>
-        <% if candidate.about.college %>
-          <dd>College/Faculty</dd>
-          <dt><%= candidate.about.college %></dt>
-        <% end %>
+      <% if candidate.about %>
+        <h3>About me</h3>
+        <dl>
+          <% if candidate.about.college %>
+            <dd>College/Faculty</dd>
+            <dt><%= candidate.about.college %></dt>
+          <% end %>
 
-        <% if candidate.about.program %>
-          <dd>Program of Study</dd>
-          <dt><%= candidate.about.program %></dt>
-        <% end %>
+          <% if candidate.about.program %>
+            <dd>Program of Study</dd>
+            <dt><%= candidate.about.program %></dt>
+          <% end %>
 
-        <% if candidate.about.year %>
-          <dd>Year of Study</dd>
-          <dt><%= candidate.about.year %></dt>
-        <% end %>
+          <% if candidate.about.year %>
+            <dd>Year of Study</dd>
+            <dt><%= candidate.about.year %></dt>
+          <% end %>
 
-        <% if candidate.about.birthplace %>
-          <dd>Place/City of Birth</dd>
-          <dt><%= candidate.about.birthplace %></dt>
-        <% end %>
+          <% if candidate.about.birthplace %>
+            <dd>Place/City of Birth</dd>
+            <dt><%= candidate.about.birthplace %></dt>
+          <% end %>
 
-        <% if candidate.about.food %>
-          <dd>Favourite Food</dd>
-          <dt><%= candidate.about.food %></dt>
-        <% end %>
+          <% if candidate.about.food %>
+            <dd>Favourite Food</dd>
+            <dt><%= candidate.about.food %></dt>
+          <% end %>
 
-        <% if candidate.about.music %>
-          <dd>Favourite Band/Music</dd>
-          <dt><%= candidate.about.music %></dt>
-        <% end %>
+          <% if candidate.about.music %>
+            <dd>Favourite Band/Music</dd>
+            <dt><%= candidate.about.music %></dt>
+          <% end %>
 
-        <% if candidate.about.inspiration %>
-          <dd>Person you most look up to</dd>
-          <dt><%= candidate.about.inspiration %></dt>
-        <% end %>
+          <% if candidate.about.inspiration %>
+            <dd>Person you most look up to</dd>
+            <dt><%= candidate.about.inspiration %></dt>
+          <% end %>
 
-        <% if candidate.about.fact %>
-          <dd>Most interesting thing nobody knows about you</dd>
-          <dt><%= candidate.about.fact %></dt>
-        <% end %>
-      </dl>
+          <% if candidate.about.fact %>
+            <dd>Most interesting thing nobody knows about you</dd>
+            <dt><%= candidate.about.fact %></dt>
+          <% end %>
+        </dl>
+      <% end %>
     </div>
   </div>
 
