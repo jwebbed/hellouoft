@@ -54,15 +54,17 @@
 
 .accordion__item__content {
   border-top: 1px solid rgba($dark-grey, 0.5);
+  font-size: 0.9em;
+  line-height: 1.5;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  padding: 0 1em;
+  padding: 0 1rem;
   transition: all 0.2s ease-in-out;
 
   .accordion__item__check:checked ~ & {
     max-height: 100%;
     opacity: 1;
-    padding: 1em;
+    padding: 1rem;
   }
 }
