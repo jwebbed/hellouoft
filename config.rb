@@ -3,6 +3,7 @@
 ###
 
 activate :directory_indexes
+activate :autoprefixer
 
 # Per-page layout changes:
 #
