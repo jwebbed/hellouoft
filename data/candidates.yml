@@ -12,6 +12,9 @@ execs:
       - Increase connections between students & the board through advertising & summarizing meetings
       - Freeze Executive salaries to provide extra funding for bursaries for students
     statement: "Lorem ipsum"
+    about:
+      college: Something
+      program: Something
 
   - name:       Mathias Memmel
     position:   VP Internal & Services
