@@ -27,11 +27,11 @@ layout: layout
     <ul class="tiles home__candidates">
       <% data.candidates.execs.each do |candidate| %>
         <li class="candidate">
-          <a href="/candidates/<%= candidate[:name].parameterize %>.html">
+          <% link_to "/candidates/#{candidate[:name].parameterize}.html" do %>
             <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
             <p class="candidate__name"><%= candidate.name %></p>
             <p class="candidate__position"><%= candidate.position %></p>
-          </a>
+          <% end %>
         </li>
       <% end %>
     </ul>
