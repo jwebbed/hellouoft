@@ -13,8 +13,10 @@ page '/*.txt', layout: false
 
 # Dynamically generate candidate pages from YAML data
 data.candidates.each do |key, value|
-  value.each do |candidate|
-    proxy "/candidates/#{candidate[:name].parameterize}.html", "/candidates/template.html", locals: { candidate: candidate }, ignore: true
+  unless key == 'intro'
+    value.each do |candidate|
+      proxy "/candidates/#{candidate[:name].parameterize}.html", "/candidates/template.html", locals: { candidate: candidate }, ignore: true
+    end
   end
 end
 
