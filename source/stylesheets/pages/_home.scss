@@ -7,7 +7,7 @@
     content: '';
     display: block;
     background: url('/images/execs.png') no-repeat center bottom / contain;
-    height: 20rem;
+    height: 18rem;
     width: 100%;
     position: absolute;
     left: 0;
@@ -17,6 +17,16 @@
 
   .home__hero__text {
     @extend .content__header__text;
+
+    @include breakpoint(mobile) {
+      bottom: auto;
+      color: $green;
+      top: 0;
+
+      &::before {
+        background: none;
+      }
+    }
   }
 
 .home__section {
