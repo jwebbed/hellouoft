@@ -5,3 +5,9 @@
     text-align: center;
   }
 }
+
+.candidates__execs {
+  &:first-child {
+    flex-basis: 100%;
+  }
+}

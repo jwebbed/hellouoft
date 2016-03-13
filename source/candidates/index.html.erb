@@ -9,7 +9,7 @@ layout: narrow
   <h2>Executives</h2>
   <ul class="tiles">
     <% data.candidates.execs.each do |candidate| %>
-      <li class="candidate">
+      <li class="candidate candidates__execs">
         <% link_to "/candidates/#{candidate[:name].parameterize}.html" do %>
           <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
           <p class="candidate__name"><%= candidate.name %></p>
