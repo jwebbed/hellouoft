@@ -97,12 +97,19 @@
   }
 
 .content {
+  background: url('/images/buildings.png') no-repeat bottom center / contain;
   flex: 1 1 auto;
+  margin-bottom: -1rem;
   min-height: 2em;
+  padding-bottom: 2rem;
 
-  .index &.container{
-    @include breakpoint(mobile) {
-      padding: 1rem 0;
+  .index & {
+    background: none;
+
+    &.container{
+      @include breakpoint(mobile) {
+        padding: 1rem 0;
+      }
     }
   }
 }
