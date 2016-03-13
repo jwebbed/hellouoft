@@ -10,9 +10,12 @@ layout: layout
   <div class="container__narrow">
     <h1>Our commitments to you</h1>
 
-    <ul class="tiles">
+    <ul class="tiles home__platform">
       <% data.platform.short.each do |platform_point| %>
-        <li><%= platform_point %></li>
+        <li>
+          <img src="/images/icons/<%= platform_point.img %>" alt="">
+          <p><%= platform_point.point %></p>
+        </li>
       <% end %>
     </ul>
 

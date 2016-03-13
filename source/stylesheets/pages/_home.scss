@@ -74,6 +74,12 @@
     }
   }
 
+.home__platform {
+  img {
+    max-width: 5em;
+  }
+}
+
 .home__candidates {
   .candidate {
     background-color: rgba($white, 0.9);

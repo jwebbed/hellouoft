@@ -1,10 +1,14 @@
 intro: "Let's get stuff done."
 
 short:
-  - Something
-  - Something
-  - Something
-  - Something
+  - point: Something
+    img:   community.png
+  - point: Something
+    img:   community.png
+  - point: Something
+    img:   community.png
+  - point: Something
+    img:   community.png
 
 full:
   - title: Hello to a new UTSU
