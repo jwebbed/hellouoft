@@ -13,7 +13,9 @@ layout: layout
     <ul class="tiles home__platform">
       <% data.platform.short.each do |platform_point| %>
         <li>
-          <img src="/images/icons/<%= platform_point.img %>" alt="">
+          <% if platform_point.icon %>
+            <img src="/images/icons/<%= platform_point.icon %>" alt="">
+          <% end %>
           <p><%= platform_point.point %></p>
         </li>
       <% end %>
