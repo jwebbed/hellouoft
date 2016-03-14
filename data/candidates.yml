@@ -1,3 +1,4 @@
+
 intro: "We're a team that believes in..."
 
 execs:
@@ -10,8 +11,8 @@ execs:
     platform:
       - Fight to eliminate tuition fee increases
       - Increase connections between students & the board through advertising & summarizing meetings
-      - Freeze Executive salaries to provide extra funding for bursaries for students
-    statement: "HELLO U of T, I'm JASMINE WONG DENIKE and I want to be your PRESIDENT. After a year of building a strong foundation, I want to see our students' union focus on its students. I want to see more student engagement with major decisions & events, board meetings that aren't flooded with inaccessible language, and a freeze in executive salaries to create more bursaries and grants for you. I want to give the UTSU back to students so we can build a union you can be proud of. Say HELLO to a new U of T."
+      - Freeze executive salaries to provide extra funding for bursaries for students
+    statement: "Hello U of T, I'm Jasmine Wong Denike and I want to be your president. After a year of building a strong foundation, I want to see our students' union focus on its students. I want to see more student engagement with major decisions & events, board meetings that aren't flooded with inaccessible language, and a freeze in executive salaries to create more bursaries and grants for you. I want to give the UTSU back to students so we can build a union yeu can be proud of. Say HELLO to a new U of T."
 
   - name:       Mathias Memmel
     position:   VP Internal & Services
@@ -36,10 +37,14 @@ execs:
       - Challenge all phobias & isms in UofT by collaborating with colleges, professional faculties, clubs, and UTM to create awareness & facilitate discussions
       - Work with admin to increase effective security resources (emergency buttons etc) for different areas on campus
       - Lobby for better and affordable food services on campus
-    statement: "HELLO UOFT! Vote FARAH NOORI for VP Equity! Having been on the UTMSU/UTSU Board of Directors as Division Three, UTMSU Womxn's Coalition Member (2014-2015) and a UTMSU Volunteer, I have grown a passion for working to better accommodate all students on campus! My focus is to engage clubs, colleges, and professional faculties on campus to help challenge the multiple phobias and isms students face. Together we can combat the systemic forms of oppression on this campus and create a better campus for all students! Say HELLO to equity and inclusivity, and vote FARAH NOORI for a more welcoming UTSU"
+    statement: "HELLO UOFT! Vote Farah Noori for VP Equity! Having been on the UTMSU/UTSU Board of Directors as Division Three, UTMSU Womxn's Coalition Member (2014-2015) and a UTMSU Volunteer, I have grown a passion for working to better accommodate all students on campus! My focus is to engage clubs, colleges, and professional faculties on campus to help challenge the multiple phobias and isms students face. Together we can combat the systemic forms of oppression on this campus and create a better campus for all students! Say HELLO to equity and inclusivity, and vote Farah Noori for a more welcoming UTSU."
 
   - name:       Lucinda Qu
     position:   VP External
+    experience:
+      - VUSAC Vice-President Student Organizations
+      - Co-Director, Tunes. Beats. Awesome. [TBA]
+      - Vice-President External, Equity Studies Students' Union [ESSU]
     platform:
       - Demand the elimination of tuition increase
       - Create more equitable, good, and healthy food options on campus
@@ -49,13 +54,13 @@ execs:
   - name:       Shawn Williams
     position:   VP University Affairs
     experience:
-      - UofT accepted students group organizer
+      - UofT Accepted students group organizer
       - Direct engagement with students
     platform:
       - Lobby for improved academic support, recorded lectures, and assignment grace periods
       - Refocus commissions on student needs and empowerment
       - Organize open meetings to coordinate with student societies
-    statement: "HELLO U OF T! I’m SHAWN WILLIAMS, and I’m running to be your VP University Affairs! As a student, I have strived to make U of T more welcoming by helping new students navigate courses, student loans, and the transition to university. I’m determined to redefine UTSU’s outreach so as to empower you to create change in your university experience. I will fight to strengthen the academic support systems we rely on, and work to ensure that you have the resources you need to succeed. Together, let’s build a community that prioritizes you. Vote SHAWN WILLIAMS for VP UA."
+    statement: "HELLO U of T! I’m Shawn Williams, and I’m running to be your VP University Affairs! As a student, I have strived to make U of T more welcoming by helping new students navigate courses, student loans, and the transition to university. I’m determined to redefine UTSU’s outreach so as to empower you to create change in your university experience. I will fight to strengthen the academic support systems we rely on, and work to ensure that you have the resources you need to succeed. Together, let’s build a community that prioritizes you. Vote Shawn Williams for VP UA."
 
   - name:       Shahin Imtiaz
     position:   VP Campus Life
@@ -72,7 +77,7 @@ execs:
       - Use new technologies to better connect the campus and its students
       - Streamline clubs funding process and bring it online
       - Work with campus leaders to create safer, more equitable spaces
-    statement: "HELLO UofT! I'm SHAHIN IMTIAZ, and I'm running to be your next VP Campus Life. As a computer science student, I am developing a campus life app and website to centralize information, help you find your niche and provide access to resources you may not have known existed. I plan to overhaul the inefficient club funding system and create a quicker, simpler (online) replacement. Most importantly, I want to create opportunities for you influence the student life you engage with. Say HELLO to a UTSU that listens - vote SHAHIN IMTIAZ for VP Campus Life."
+    statement: "HELLO UofT! I'm Shahin Imtiaz, and I'm running to be your next VP Campus Life. As a computer science student, I am developing a campus life app and website to centralize information, help you find your niche and provide access to resources you may not have known existed. I plan to overhaul the inefficient club funding system and create a quicker, simpler (online) replacement. Most importantly, I want to create opportunities for you influence the student life you engage with. Say hello to a UTSU that listens - vote Shahin Imtiaz for VP Campus Life."
 
   - name:       Ryan Gomes
     position:   VP Professional Faculties
@@ -85,7 +90,7 @@ execs:
       - Introduce a Professional Faculties Commission to engage ProFac students
       - Push the government to reduce regulated fee increases
       - A new focus on ProFac students through ProFac-friendly programming
-    statement: "Vote RYAN GOMES for VP Professional Faculties! Having served as UTSU VP Internal, EngSoc VP Academic, and an EngSoc Board Director, I have worked hard to make the UTSU more accessible for students. My main goal is to create a new focus within the UTSU on ProFac students by introducing programming directed for you, at times that you can actually attend. I want to push the government to reduce regulated fee increases on high ProFac tuition and develop faculty-specific strategies to solve the unique problems students in each faculty face. VOTE RYAN GOMES and say HELLO to a better UofT!"
+    statement: "Vote Ryan Gomes for VP Professional Faculties! Having served as UTSU VP Internal, EngSoc VP Academic, and an EngSoc Board Director, I have worked hard to make the UTSU more accessible for students. My main goal is to create a new focus within the UTSU on ProFac students by introducing programming directed for you, at times that you can actually attend. I want to push the government to reduce regulated fee increases on high ProFac tuition and develop faculty-specific strategies to solve the unique problems students in each faculty face. Vote Ryan Gomes and say HELLO to a better UofT!"
 
 academic:
   - name:       Jacob Reinertson
@@ -94,7 +99,7 @@ academic:
       - Work to ensure CS students are easily able to get into the courses they need
       - Explore with administration options to reduce congestion in Bahen labs and accessibility to required course hardware
       - Push for an annual Computer Science spring convocation ceremony
-    statement: "HELLO U of T, I'm Jacob Reinertson and I want to be your CS Director. As a 3rd year Computer Science student, I understand what issues affect us most. We pay more than A&S students, frequently deal with rapidly filled & poorly coordinated courses, and overcrowded rooms. I've seen a number of these problems sour a student's perception of our department, and our education. As CS Director, I will work with the CS Department, ASSU and the Dept. of A&S to remedy these issues so we can feel proud about our education. Say HELLO to an improved CS."
+    statement: "HELLO U of T, I'm Jacob Reinertson and I want to be your CS Director. As a 3rd-year Computer Science student, I understand what issues affect us most. We pay more than A&S students, frequently deal with rapidly filled & poorly coordinated courses, and overcrowded rooms. I've seen a number of these problems sour a student's perception of our department, and our education. As CS Director, I will work with the CS Department, ASSU and the Dept. of A&S to remedy these issues so we can feel proud about our education. Say HELLO to an improved CS."
 
   - name:       Timothy Law
     position:   Social Sciences Director
@@ -106,7 +111,7 @@ academic:
       - Increase involvement and collaboration within and outside of Faculty
       - Easier access and greater exposure for students to Academic Services
       - Increased transparency and ease of understanding of UTSU Functions for students
-    statement: "HELLO UofT! I’m TIMOTHY LAW and I'm running to be your Director of Social Sciences! Having served in a variety of clubs, such as the executive of various Model UNs, in addition to being involved in a variety of SocSci faculties such as PCJ, IR and CAS, I’ve worked with all areas of social sciences! With the new representation available for SocSci students on UTSU, I am determined to make UTSU more accessible, increase ease of use of academic support to all students and create a vibrant SocSci community. Vote for TIMOTHY LAW and say HELLO to a better UofT!"
+    statement: "HELLO UofT! I’m Timothy Law and I'm running to be your Director of Social Sciences! Having served in a variety of clubs, such as the executive of various Model UNs, in addition to being involved in a variety of SocSci faculties such as PCJ, IR and CAS, I’ve worked with all areas of social sciences! With the new representation available for SocSci students on UTSU, I am determined to make UTSU more accessible, increase ease of use of academic support to all students and create a vibrant SocSci community. Vote for Timothy Law and say HELLO to a better UofT!"
 
   - name:       Alissa Mirochnitchenko
     position:   Life Sciences Director
@@ -117,19 +122,19 @@ academic:
       - Raise awareness and improve support for student mental health
       - Support services for medical, dental & other professional school appliers
       - Work to lower textbooks & lab material costs in required Life-Sci courses
-    statement: "HELLO UOFT! Vote ALISSA for UTSU Life Science Director! In my three years at UofT, I've worked to create a welcoming environment for students by serving as co-president of the UofT Pre-Medical Society and Social Director on the Innis College Student Society. As life science director, I will advocate for increased support services for students, including increased mental health coverage, support for students aiming for professional and post-graduate studies, and financial support for students struggling with textbook and lab material costs. Above all, I will make UofT a more welcoming place for YOU. Vote for ALISSA MIROCHNITCHENKO and HELLO UOFT!"
+    statement: "HELLO UOFT! Vote Alissa for UTSU Life Science Director! In my three years at UofT, I've worked to create a welcoming environment for students by serving as co-president of the UofT Pre-Medical Society and Social Director on the Innis College Student Society. As life science director, I will advocate for increased support services for students, including increased mental health coverage, support for students aiming for professional and post-graduate studies, and financial support for students struggling with textbook and lab material costs. Above all, I will make UofT a more welcoming place for YOU. Vote for Alissa Mirochnitchenko and HELLO UOFT!"
 
-  - name:       Tsukasa Kikuchi
-    position:   Rotman Commerce Director
-    experience:
-      - RCMA Media Coordinator
-      - Breakfast Media CEO
-      - Rotman Intramural Soccer Goalkeeper
-    platform:
-      - Lobby against rising tuition and textbook costs
-      - Work towards improving the university experience for Rotman commuters
-      - Develop career-oriented UTSU x Rotman collaboration events
-    statement: "HELLO UOFT! Vote TSUKASA KIKUCHI for UTSU Rotman Commerce Director. As a Rotman student who has been involved in the Rotman community for almost 2 years, I know what makes it a tight-knit, resourceful and supportive community for everyone. With what the UTSU has to offer, we can make it even greater. If elected, I will lobby against the rising tuition and textbook costs we face. I will improve the university experience for commuters at Rotman and make UTSU resources more accessible to Rotman students. Let’s say HELLO to a better Rotman!"
+  # # - name:       Tsukasa Kikuchi
+  #   position:   Rotman Commerce Director
+  #   experience:
+  #     - RCMA Media Coordinator
+  #     - Breakfast Media CEO
+  #     - Rotman Intramural Soccer Goalkeeper
+  #   platform:
+  #     - Lobby against rising tuition and textbook costs
+  #     - Work towards improving the university experience for Rotman commuters
+  #     - Develop career-oriented UTSU x Rotman collaboration events
+  #   statement: "HELLO UOFT! Vote Tsukasa Kikuchi for UTSU Rotman Commerce Director. As a Rotman student who has been involved in the Rotman community for almost 2 years, I know what makes it a tight-knit, resourceful and supportive community for everyone. With what the UTSU has to offer, we can make it even greater. If elected, I will lobby against the rising tuition and textbook costs we face. I will improve the university experience for commuters at Rotman and make UTSU resources more accessible to Rotman students. Let’s say HELLO to a better Rotman!"
 
   - name:       Victoria Liao
     position:   Humanities Director
@@ -140,7 +145,7 @@ academic:
       - Improve student access to timely and equitable mental health and accessibility resources
       - Increase awareness and efficacy of academic support resources
       - Liaise with course unions to foster equity values and promote interdisciplinary connections
-    statement: "HELLO folks! I’m VICTORIA LIAO, and I am running to be your Humanities Director. Having served as Levy Coordinator at the Sexual Education Centre, I understand the benefits of effective service provision as well as the barriers facing students who need support. My time in differing humanities programs has show me our concerns are pressing and diverse, but I will listen to your voices. I aim to increase efficacy and facilitate access to existing and expanding resources in an effort to improve accessibility and ease the overall learning experience. Vote for VICTORIA and say HELLO to a more accessible UofT!"
+    statement: "HELLO folks! I’m Victoria Liao, and I am running to be your Humanities Director. Having served as Levy Coordinator at the Sexual Education Centre, I understand the benefits of effective service provision as well as the barriers facing students who need support. My time in differing humanities programs has show me our concerns are pressing and diverse, but I will listen to your voices. I aim to increase efficacy and facilitate access to existing and expanding resources in an effort to improve accessibility and ease the overall learning experience. Vote for Victoria and say HELLO to a more accessible UofT!"
 
 profac:
   - name:       Sophia Wang
@@ -153,7 +158,7 @@ profac:
       - Advocate for improved Arts/Sci enrolment access for ProFac students
       - Push for ProFac-specific resources for mental health and wellness
       - Facilitate positive relations and collaborations between ProFacs and UTSU
-    statement: "Hello! My name is SOPHIA WANG, and I'm a second year Music student running with Hello UofT to be your Professional Faculties at-Large Director! Fighting for ProFac students’ rights is very important to me, and it’s something I’ve been doing for the past two years on the Faculty of Music Undergraduate Association. As your ProFac Director, I will advocate for improved enrolment access to Arts/Sci courses for ProFac students, push for ProFac-specific resources for mental health and wellness, and facilitate positive relations and collaborations between ProFacs and the UTSU. Vote SOPHIA WANG from HELLO UOFT!"
+    statement: "Hello! My name is Sophia Wang, and I'm a second year Music student running with Hello UofT to be your Professional Faculties at-Large Director! Fighting for ProFac students’ rights is very important to me, and it’s something I’ve been doing for the past two years on the Faculty of Music Undergraduate Association. As your ProFac Director, I will advocate for improved enrolment access to Arts/Sci courses for ProFac students, push for ProFac-specific resources for mental health and wellness, and facilitate positive relations and collaborations between ProFacs and the UTSU. Vote Sophia Wang from HELLO UOFT!"
 
   - name:       Faizan Akbani
     position:   Professional Faculty At-Large Director
@@ -166,7 +171,7 @@ profac:
       - Work on improving Mental Health resources and accessibility
       - Increase collaborative events between Professional Faculties
       - Increase awareness and accessibility of the UTSU's student services
-    statement: "HELLO UofT community! My name is Faizan Akbani, and today I'd like to ask for your vote as a Professional Faculties at-Large Director. Having represented Professional Faculties on Governing Council for the past year and a half, as well as having served on the Engineering Society's Board of Directors, I've worked diligently to negotiate policy changes that are important to our student body. My main goal if elected is to improve accessibility to information regarding the UTSU's key services and events. Vote for experience, vote FAIZAN AKBANI and say HELLO to a great year ahead!"
+    statement: "HELLO UofT community! My name is Faizan Akbani, and today I'd like to ask for your vote as a Professional Faculties at-Large Director. Having represented Professional Faculties on Governing Council for the past year and a half, as well as having served on the Engineering Society's Board of Directors, I've worked diligently to negotiate policy changes that are important to our student body. My main goal if elected is to improve accessibility to information regarding the UTSU's key services and events. Vote for experience, vote Faizan Akbani and say HELLO to a great year ahead!"
 
   - name:       Addy Bhatia
     position:   Engineering & Applied Sciences Director
@@ -178,7 +183,7 @@ profac:
       - Increase connectedness between students via campus-wide app
       - Developing & implementing off campus cooking workshops for students
       - Increase UTSU’s transparency for greater reliability and accessibility
-    statement: "Hey you! Vote ADITYAPAL (ADDY) BHATIA for ENGINEERING DIRECTOR for the most enjoyable Skule year possible! As a former Valedictorian and co-founder of Humans of SKULE, connecting and talking to people has always been my forte. So as a part of HELLO UOFT, I’ll work on bringing students closer together to UofT by working with our VP CL on a web platform to make it easy to stay connected with activities on campus. I’ll try to ensure there's increased transparency with the UTSU so we can have a universally accessible union for us all :D VOTE ADITYAPAL from HELLO UOFT!"
+    statement: "Hey you! Vote Adityapal (Addy) Bhatia for Engineering Director for the most enjoyable Skule year possible! As a former Valedictorian and co-founder of Humans of Skule, connecting and talking to people has always been my forte. So as a part of HELLO UOFT, I’ll work on bringing students closer together to UofT by working with our VP CL on a web platform to make it easy to stay connected with activities on campus. I’ll try to ensure there's increased transparency with the UTSU so we can have a universally accessible union for us all :D VOTE Adityapal from HELLO UOFT!"
 
   - name:       Danja Papajani
     position:   Engineering & Applied Sciences Director
@@ -189,7 +194,7 @@ profac:
       - Integrate introductory equity resources for engineers
       - Increase transparency of UTSU within Engineering
       - Promote collaboration between Engineering & other professional faculties
-    statement: "HELLO Skule! My name is DANJA PAPAJANI and I am running to be one of your UTSU Engineering Directors! As a first year engineering student, I am honoured to be a part of the inclusivity, leadership, and passion that Skule has to offer. I will work to share these qualities with UofT by increasing transparency between UTSU and EngSoc, integrating equity resources within the Engineering Community, and most importantly promoting collaboration between Engineering and other Professional Faculties! With your help, I will ensure that your best interests are represented. Vote for DANJA PAPAJANI and vote to say HELLO UofT!"
+    statement: "HELLO Skule! My name is Danja Papajani and I am running to be one of your UTSU Engineering Directors! As a first year engineering student, I am honoured to be a part of the inclusivity, leadership, and passion that Skule has to offer. I will work to share these qualities with UofT by increasing transparency between UTSU and EngSoc, integrating equity resources within the Engineering Community, and most importantly promoting collaboration between Engineering and other Professional Faculties! With your help, I will ensure that your best interests are represented. Vote for Danja Papajani and vote to say HELLO UofT!"
 
   - name:       Andrew Sweeny
     position:   Engineering & Applied Sciences Director
@@ -200,7 +205,7 @@ profac:
       - Work with EngSoc to improve mental health resources
       - Promote collaboration between Engineering and Arts & Science
       - Review the UTSU's membership in the CFS
-    statement: "HELLO Skule™! My name is ANDREW SWEENY, and I’m running to be one of your Engineering Directors on the UTSU Board of Directors. If elected, I will work hard to make UTSU board meetings more open and transparent, and increase collaboration with other Professional Faculties and the Faculty of Arts and Sciences. I also want to look for ways to improve the return Engineers get from our student union, including taking a hard look at our relationship with the CFS. Vote ANDREW SWEENY and say HELLO to a more transparent UTSU"
+    statement: "HELLO Skule! My name is Andrew Sweeny, and I’m running to be one of your Engineering Directors on the UTSU Board of Directors. If elected, I will work hard to make UTSU board meetings more open and transparent, and increase collaboration with other Professional Faculties and the Faculty of Arts and Sciences. I also want to look for ways to improve the return Engineers get from our student union, including taking a hard look at our relationship with the CFS. Vote Andrew Sweeny and say HELLO to a more transparent UTSU"
 
   - name:       Veronika Potylitsina
     position:   Architecture, Landscape & Design Director
@@ -210,7 +215,7 @@ profac:
       - Increase collaboration with other faculties, colleges, & other external orgs
       - Increase access to mental health initiatives
       - Better transparency/understanding of UTSU functions for students
-    statement: "HELLO everyone! My name is VERONIKA POTYLITSINA and I am honoured to be running for the UTSU’s Architecture, Landscape, and Design Director position. As a second year, I have had hands-on experience with what undergraduate students in the faculty want from their experience at UofT. I want to increase student involvement in my faculty, both internally and externally, and I want to create mental health initiatives readily available and designed for the faculty. To say HELLO to a more accessible, more involved, and more personal UofT, vote VERONIKA POTYLITSINA!"
+    statement: "HELLO everyone! My name is Veronika Potylitsina and I am honoured to be running for the UTSU’s Architecture, Landscape, and Design Director position. As a second year, I have had hands-on experience with what undergraduate students in the faculty want from their experience at UofT. I want to increase student involvement in my faculty, both internally and externally, and I want to create mental health initiatives readily available and designed for the faculty. To say HELLO to a more accessible, more involved, and more personal UofT, vote Veronika Potylitsina!"
 
   - name:       Katie Grundy
     position:   Faculty of Nursing Director
@@ -222,7 +227,7 @@ profac:
       - Advocate for Nursing student access to services
       - Improve communication and collaboration between UTSU and Nursing
       - Increase UTSU accountability and transparency for Nursing students
-    statement: "Vote KATIE GRUNDY for FACULTY OF NURSING DIRECTOR! As a member of the Nursing Undergraduate Society, an HBSc alumni from Trinity College and a current student at the wonderful Bloomberg Faculty of Nursing, I am committed to ensuring effective collaboration and communication between our Faculty and the UTSU. My goals are to improve inclusion and access of nursing students to UTSU services, to provide accountability and transparency in UTSU affairs and to ensure our voices and rights are heard and respected. Vote KATIE GRUNDY and say HELLO U OF T!"
+    statement: "Vote Katie Grundy for Faculty of Nursing Director! As a member of the Nursing Undergraduate Society, an HBSc alumni from Trinity College and a current student at the wonderful Bloomberg Faculty of Nursing, I am committed to ensuring effective collaboration and communication between our Faculty and the UTSU. My goals are to improve inclusion and access of nursing students to UTSU services, to provide accountability and transparency in UTSU affairs and to ensure our voices and rights are heard and respected. Vote Katie Grundy and say HELLO U OF T!"
 
   - name:       Adriana Too
     position:   Faculty of Pharmacy Director
@@ -230,7 +235,7 @@ profac:
       - Increase accessibility/availability of mental health services after work hours
       - Increase Pharmacy students' access to UTSU resources
       - Provide more opportunities for Pharmacy students to get involved in UTSU events
-    statement: "Vote ADRIANA TOO for Pharmacy Director! I’m running with HELLO U of T and I’m excited to bring UPS and UTSU together. I'm hoping to bring student services to the Pharmacy Building so you never have to leave! I’m going to work hard to bring mental health resources to PB throughout the year and make them accessible for our long nights. Finally, I want to bring everything the UTSU has to offer right to our doorstep to help maximize the amount of time we have to study while benefiting from being a part of the UTSU. VOTE ADRIANA! :)"
+    statement: "Vote Adriana Too for Pharmacy Director! I’m running with HELLO U of T and I’m excited to bring UPS and UTSU together. I'm hoping to bring student services to the Pharmacy Building so you never have to leave! I’m going to work hard to bring mental health resources to PB throughout the year and make them accessible for our long nights. Finally, I want to bring everything the UTSU has to offer right to our doorstep to help maximize the amount of time we have to study while benefiting from being a part of the UTSU. VOTE Adriana! :)"
 
 colleges:
   - name:       Christina Badiola
@@ -244,7 +249,7 @@ colleges:
       - Sit on the CFS Committee and review our relationship
       - Work with VP Campus Life to create commuter spaces within WW
       - Work with VP Internal and WW for better mental health resources
-    statement: "HELLO UofT! My name is CHRISTINA BADIOLA and I believe you should vote for me to be your Woodsworth College Director! In the past two years I have gained valuable experiences within and outside of Woodsworth such as being a Chestnut Floor president, a Woodsworth Frosh leader and most recently an Associate at the UTSU! I plan to use these experiences to represent you on the board. A vote for CHRISTINA is a vote for improved commuter spaces, more readily available mental health resources and a more transparent UTSU! So vote CHRISTINA and say HELLO to a better UofT!"
+    statement: "HELLO UofT! My name is Christina Badiola and I believe you should vote for me to be your Woodsworth College Director! In the past two years I have gained valuable experiences within and outside of Woodsworth such as being a Chestnut Floor president, a Woodsworth Frosh leader and most recently an Associate at the UTSU! I plan to use these experiences to represent you on the board. A vote for Christina is a vote for improved commuter spaces, more readily available mental health resources and a more transparent UTSU! So vote Christina and say HELLO to a better UofT!"
 
   - name:       Ifrah Farah
     position:   Woodsworth College Director
@@ -256,7 +261,7 @@ colleges:
       - Integrate non-traditional students into UTSU
       - Help make UTSU a more visible and transparent organization on campus
       - Represent the interests of Woodsworth College students on the board
-    statement: "HELLO U OF T! My name is IFRAH FARAH and I hope to continue to serve as Woodsworth College Director this upcoming year. As someone who has had a non-traditional route towards U of T, I am committed to ensuring that access to higher education is equitable and affordable for all students. I plan on working with the Woodsworth College Students' Association to connect Woodsworth students with the broader campus community as well as hold the UTSU accountable to its students. Let's make “transparency”, “equity” and “accountability” become more than just buzzwords and say HELLO to a more inclusive Woodsworth!"
+    statement: "HELLO U OF T! My name is Ifrah Farah and I hope to continue to serve as Woodsworth College Director this upcoming year. As someone who has had a non-traditional route towards U of T, I am committed to ensuring that access to higher education is equitable and affordable for all students. I plan on working with the Woodsworth College Students' Association to connect Woodsworth students with the broader campus community as well as hold the UTSU accountable to its students. Let's make “transparency”, “equity” and “accountability” become more than just buzzwords and say HELLO to a more inclusive Woodsworth!"
 
   - name:       Ahmad Ilyas
     position:   Woodsworth College Director
@@ -267,7 +272,7 @@ colleges:
       - Work towards greater inclusivity and community for commuter students
       - Increase awareness of UTSU as well as services offered to members
       - Create avenues for greater accountability and communication with in-person and web-based events
-    statement: "HELLO U OF T, my name is AHMAD ILYAS and I want to represent Woodsworth on the UTSU Board of Directors. Having previously served as a Head leader and a member on the social committee, I want to work towards greater inclusivity with commuter students and create a more involved community. Because of lack of awareness of the UTSU, I want to spread knowledge of services offered as well as increase communication and transparency with the union and all students. Ultimately I want the UTSU to better serve students and their needs, so vote AHMAD ILYAS for Woodsworth Director!"
+    statement: "HELLO U OF T, my name is Ahmad Ilyas and I want to represent Woodsworth on the UTSU Board of Directors. Having previously served as a Head leader and a member on the social committee, I want to work towards greater inclusivity with commuter students and create a more involved community. Because of lack of awareness of the UTSU, I want to spread knowledge of services offered as well as increase communication and transparency with the union and all students. Ultimately I want the UTSU to better serve students and their needs, so vote Ahmad Ilyas for Woodsworth Director!"
 
   - name:       Garnet Lollar
     position:   Victoria College Director
@@ -280,7 +285,7 @@ colleges:
       - Work to streamline club bureaucracy to reduce obstacles between you and the events you want
       - Demand consistent course syllabi and testing policies
       - Lobby for comprehensive sexual assult and mental health policies
-    statement: "Hello Vic, I'm GARNET LOLLAR and I'm running to be your UTSU Victoria College Director. As a member of the Cat's Eye subcommittee, Co-President of Werewolf Club, and a member of the Student Projects Advisory Board, I want to make it easier to engage with your Students' Union! I aim to streamline bureaucracy around clubs, increase academic resources for students, and bridge the Queen's Park gap between Vic and UTSU. It's easy to feel isolated at U of T, but a vote for GARNET LOLLAR and HELLO U of T will guarantee you'll be saying \"hello\" to an effective UTSU"
+    statement: "Hello Vic, I'm Garnet LollarR and I'm running to be your UTSU Victoria College Director. As a member of the Cat's Eye subcommittee, Co-President of Werewolf Club, and a member of the Student Projects Advisory Board, I want to make it easier to engage with your Students' Union! I aim to streamline bureaucracy around clubs, increase academic resources for students, and bridge the Queen's Park gap between Vic and UTSU. It's easy to feel isolated at U of T, but a vote for Garnet Lollar and HELLO U of T will guarantee you'll be saying \"hello\" to an effective UTSU"
 
   - name:       Stephanie Spagnuolo
     position:   Victoria College Director
@@ -293,7 +298,7 @@ colleges:
       - Investigate the UTSU's relationship with the CFS
       - "Fighting for the Victorian voice, #fightclub"
       - Work with student groups on fighting against issues of sexual assualt
-    statement: "HELLO U OF T! I’m STEPHANIE SPAGNUOLO and I’ve grown to love the Victorian community through my work on the Victoria College Council, VUSAC's Equity Commission, Vic's Winterfest Committee, The Strand, and the fall Intermural Soccer Team. I would love to use this opportunity to give back by ensuring that the UTSU hears Vic’s concerns. My main goals are to investigate the UTSU’s relationship with the CFS and to work with student groups to combat sexual assault on campus. I will insure that YOUR needs, accessibility concerns and issues are addressed! So please, VOTE STEPHANIE SPAGNUOLO and say HELLO UOFT!"
+    statement: "HELLO U OF T! I’m Stephanie Spagnuolo and I’ve grown to love the Victorian community through my work on the Victoria College Council, VUSAC's Equity Commission, Vic's Winterfest Committee, The Strand, and the fall Intermural Soccer Team. I would love to use this opportunity to give back by ensuring that the UTSU hears Vic’s concerns. My main goals are to investigate the UTSU’s relationship with the CFS and to work with student groups to combat sexual assault on campus. I will insure that YOUR needs, accessibility concerns and issues are addressed! So please, vote Stephanie Spagnuolo and say HELLO UOFT!"
 
   - name:       Kshemani Constantinescu
     position:   University College Director
@@ -304,7 +309,7 @@ colleges:
       - Promote awareness of and easier access to UTSU resources
       - Lobby Accessibility Services for more accessible career resources
       - Work with mental wellness commission on a self-care campaign
-    statement: "HELLO UC! I’m KSHEMANI CONSTANTINESCU and I’m running for the position of UC Director. My goal in representing you is to bridge the gap between the UTSU and individual colleges, bringing you closer access to and better understanding of the resources that you are paying for; resources like your healthcare plan, student initiatives, and support networks. I’m also passionate about promoting mental, physical health and wellness resources for UC students, and I want to encourage accessibility for all spaces and events. Vote KSHEMANI CONSTANTINESCU and say HELLO to a UTSU built around your needs."
+    statement: "HELLO UC! I’m Kshemani Constantinescu and I’m running for the position of UC Director. My goal in representing you is to bridge the gap between the UTSU and individual colleges, bringing you closer access to and better understanding of the resources that you are paying for; resources like your healthcare plan, student initiatives, and support networks. I’m also passionate about promoting mental, physical health and wellness resources for UC students, and I want to encourage accessibility for all spaces and events. Vote Kshemani Constantinescu and say HELLO to a UTSU built around your needs."
 
   - name:       Mira El Hussein
     position:   University College Director
@@ -316,7 +321,7 @@ colleges:
       - Promote UC values of equity and inclusivity across campus
       - Improve access to UTSU resources and increase transparency of UTSU
       - Push for increased accessibility to mental health resources
-    statement: "HELLO UC! My name is MIRA EL HUSSEIN, and I’m running to be one of your UC Directors as part of Hello U of T. Should you decide to put your faith in me as a director, I will continue to promote the UC values of equity and inclusivity across campus whilst improving the representation of your interests as UC students. I will also work towards more accountability within the UTSU and push for increased access to mental health resources. I have full faith in this year’s candidates and can’t wait to make this union start working for you #LoveMyUC"
+    statement: "HELLO UC! My name is Mira El Hussein, and I’m running to be one of your UC Directors as part of HELLO U of T. Should you decide to put your faith in me as a director, I will continue to promote the UC values of equity and inclusivity across campus whilst improving the representation of your interests as UC students. I will also work towards more accountability within the UTSU and push for increased access to mental health resources. I have full faith in this year’s candidates and can’t wait to make this union start working for you #LoveMyUC"
 
   - name:       Chimwemwe Alao
     position:   University College Director
@@ -328,4 +333,4 @@ colleges:
       - Work towards the creation of equitable policies & practices across campus
       - Ensuring UC students’ interests are represented on the UTSU
       - Push for increased interconnectedness between the Faculties
-    statement: "HELLO UC! Vote CHIMWEMWE ALAO to be your UC director on the UTSU! Having served as Mid-Year Rep on the UCLit and vice-president of the University College Host club, I have continually strived to give back to the UC community, and I am excited to be able to do that by running with HELLO. If elected, my goal would be to promote the UC values of equity and inclusion throughout campus, collaborating with other colleges and campus groups, as well as making sure that YOU fell represented. Vote Chim Alao and say HELLO to a new campus!"
+    statement: "HELLO UC! Vote Chimwemwe Alao to be your UC director on the UTSU! Having served as Mid-Year Rep on the UCLit and vice-president of the University College Host club, I have continually strived to give back to the UC community, and I am excited to be able to do that by running with HELLO. If elected, my goal would be to promote the UC values of equity and inclusion throughout campus, collaborating with other colleges and campus groups, as well as making sure that YOU fell represented. Vote Chim Alao and say HELLO to a new campus!"
