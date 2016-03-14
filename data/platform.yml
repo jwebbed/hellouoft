@@ -1,13 +1,15 @@
 intro: "Let's get stuff done."
 
 short:
-  - point: Something
+  - point: Online Clubs Funding
     icon:  community.png
-  - point: Something
+  - point: Eliminate Exam Deferal Fees
     icon:  community.png
-  - point: Something
+  - point: Expand Psychotherapy Coverage
     icon:  community.png
-  - point: Something
+  - point: Student Only Nap Room
+    icon:  community.png
+  - point: Snow Day Policy
     icon:  community.png
 
 full:
