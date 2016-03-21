@@ -1,0 +1,21 @@
+.endorsements {
+  list-style: none;
+  min-height: 25rem;
+}
+
+.endorsement {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+
+  a {
+    border: none;
+    color: $dark-grey;
+  }
+
+  img {
+    margin-bottom: 1em;
+    max-height: 15rem;
+    max-width: 15rem;
+  }
+}

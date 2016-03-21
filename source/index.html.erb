@@ -3,7 +3,13 @@ layout: layout
 ---
 
 <section class="home__hero">
-  <p class="home__hero__text">Say hello to a better UofT</p>
+  <p class="home__hero__text">Say hello to a UTSU that says hello back</p>
+</section>
+
+<section class="home__video">
+  <div class="video__container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0j67hhobevQ"&amp;theme=light frameborder="0" allowfullscreen></iframe>
+  </div>
 </section>
 
 <section class="home__section">
@@ -13,10 +19,12 @@ layout: layout
     <ul class="tiles home__platform">
       <% data.platform.short.each do |platform_point| %>
         <li>
-          <% if platform_point.icon %>
-            <img src="/images/icons/<%= platform_point.icon %>" alt="">
+          <% link_to "/platform" do %>
+            <% if platform_point.icon %>
+              <img src="/images/icons/<%= platform_point.icon %>" alt="">
+            <% end %>
+            <p><%= platform_point.point %></p>
           <% end %>
-          <p><%= platform_point.point %></p>
         </li>
       <% end %>
     </ul>
@@ -31,7 +39,7 @@ layout: layout
 
     <ul class="tiles home__candidates">
       <% data.candidates.execs.each do |candidate| %>
-        <li class="candidate">
+        <li class="candidate candidates__execs">
           <% link_to "/candidates/#{candidate[:name].parameterize}.html" do %>
             <img src="/images/candidates/headshots/<%= candidate.name %>.jpg" alt="Photo of <%= candidate.name %>">
             <p class="candidate__name"><%= candidate.name %></p>

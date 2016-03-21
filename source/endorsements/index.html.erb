@@ -1,0 +1,15 @@
+---
+title: Endorsements
+layout: narrow
+---
+
+<ul class="tiles endorsements">
+  <% data.endorsements.each do |endorsement| %>
+    <li class="endorsement">
+      <% link_to endorsement.site do %>
+        <img src="/images/endorsements/<%= endorsement.img %>" alt="">
+        <p><%= endorsement.group %></p>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

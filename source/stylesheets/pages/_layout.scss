@@ -175,6 +175,10 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @include breakpoint(small) {
+      flex-flow: column nowrap;
+    }
   }
 
   .index & {

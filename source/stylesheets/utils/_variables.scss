@@ -12,9 +12,7 @@ $radius: 4px;
 
 // Responsive layout breakpoints
 $breakpoints: (
-  'tiny'   : (max-width: 320px),
   'small'  : (max-width: 480px),
   'mobile' : (max-width: 768px),
-  'medium' : (max-width: 1024px),
-  'large'  : (max-width: 1200px)
+  'medium' : (max-width: 1024px)
 );
