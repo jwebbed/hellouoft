@@ -1,7 +1,19 @@
+- group: Computer Science Student Union
+  site:  http://cssu.ca/
+  img:   cssu.png
+
 - group: Faculty of Music Undergraduate Association
   site:  http://fmua.ca/
   img:   fmua.png
 
-- group: Computer Science Student Union
-  site:  http://cssu.ca/
-  img:   cssu.png
+- group: The Spectatorial
+  site:  https://thespectatorial.wordpress.com/
+  img:   spectatorial.png
+
+- group: Trin Heads
+  site:  https://www.facebook.com/TrinHeads/
+  img:   trinheads.png
+
+- group: UofT Pre-Medical Society
+  site:  http://premed.sa.utoronto.ca/
+  img:   premed.png
